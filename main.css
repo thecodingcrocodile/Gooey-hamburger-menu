@@ -106,15 +106,15 @@ body {
   margin-top: 10px;
   margin-left: 160px;
 }
-.wrap > #menuCheckbox:checked ~ .blob:not([for=menuCheckbox])[for=menuCheckbox] > .bar:nth-child(1) {
+.wrap > #menuCheckbox:checked ~ .blob[for=menuCheckbox] > .bar:nth-child(1) {
   transform: rotate(45deg);
   margin-top: 37px;
 }
-.wrap > #menuCheckbox:checked ~ .blob:not([for=menuCheckbox])[for=menuCheckbox] > .bar:nth-child(2) {
+.wrap > #menuCheckbox:checked ~ .blob[for=menuCheckbox] > .bar:nth-child(2) {
   transform: rotate(-45deg);
   margin-top: -10px;
 }
-.wrap > #menuCheckbox:checked ~ .blob:not([for=menuCheckbox])[for=menuCheckbox] > .bar:nth-child(3) {
+.wrap > #menuCheckbox:checked ~ .blob[for=menuCheckbox] > .bar:nth-child(3) {
   opacity: 0;
 }
 

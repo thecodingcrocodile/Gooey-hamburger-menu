@@ -84,12 +84,12 @@ body
     &:nth-child(9)
       margin-top: 10px
       margin-left: 160px
-    &[for="menuCheckbox"] > .bar
-      &:nth-child(1)
-        transform: rotate(45deg)
-        margin-top: 37px
-      &:nth-child(2)
-        transform: rotate(-45deg)
-        margin-top: -10px
-      &:nth-child(3)
-        opacity: 0
+  > #menuCheckbox:checked ~ .blob[for="menuCheckbox"] > .bar
+    &:nth-child(1)
+      transform: rotate(45deg)
+      margin-top: 37px
+    &:nth-child(2)
+      transform: rotate(-45deg)
+      margin-top: -10px
+    &:nth-child(3)
+      opacity: 0
